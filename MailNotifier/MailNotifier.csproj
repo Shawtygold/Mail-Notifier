@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <None Remove="MailNotifierIcon50x50.ico" />
-    <None Remove="MailNotifierNotifyIcon.png" />
     <None Remove="MVVM\View\MailNotifierIcon.ico" />
     <None Remove="MVVM\View\MailNotifierIndicatorIcon.ico" />
     <None Remove="Resources\MailNotifierNotifyIcon.png" />
@@ -29,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="MailNotifierNotifyIcon.png" />
     <Resource Include="MVVM\View\MailNotifierIcon.ico" />
     <Resource Include="MVVM\View\MailNotifierIndicatorIcon.ico" />
     <Resource Include="Resources\MailNotifierNotifyIcon.png" />
