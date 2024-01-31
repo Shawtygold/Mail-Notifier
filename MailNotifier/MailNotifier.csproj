@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MailNotifierIcon50x50.ico" />
+    <None Remove="MailNotifierNotifyIcon.png" />
+    <None Remove="MVVM\View\MailNotifierIcon.ico" />
+    <None Remove="MVVM\View\MailNotifierIndicatorIcon.ico" />
+    <None Remove="Resources\MailNotifierNotifyIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BootstrapIcons.Wpf" Version="1.11.0" />
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+    <PackageReference Include="MimeKit" Version="4.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="WPF-UI" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MailNotifierNotifyIcon.png" />
+    <Resource Include="MVVM\View\MailNotifierIcon.ico" />
+    <Resource Include="MVVM\View\MailNotifierIndicatorIcon.ico" />
+    <Resource Include="Resources\MailNotifierNotifyIcon.png" />
+  </ItemGroup>
+
+</Project>
