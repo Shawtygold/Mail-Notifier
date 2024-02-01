@@ -4,6 +4,7 @@ using Microsoft.Toolkit.Uwp.Notifications;
 using MimeKit;
 using System.Timers;
 using System.Windows;
+using System.Windows.Forms;
 
 namespace MailNotifier.MVVM.Model
 {
@@ -97,6 +98,11 @@ namespace MailNotifier.MVVM.Model
         }
         private async Task<MimeMessage?> GetNewMessageAsync()
         {
+            /// <summary>
+            /// I know I can use the search query "new" to retrieve new messages from my inbox
+            /// but it doesn't work for unknown reasons
+            /// </summary>
+
             if (Inbox == null)
                 return null;
 
