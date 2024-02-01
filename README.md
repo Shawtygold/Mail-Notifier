@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/Shawtygold/Twitch-Notifier/blob/master/TwitchNotifierIcon.png" width="200" height="200"/>
+<div align="center"><img src="https://github.com/Shawtygold/MailNotifier/blob/master/MailNotifierGithubIcon.png" width="200" height="200"/>
 <h1>Mail-Notifier</1>
 </div>
   
@@ -33,12 +33,7 @@ Password Bunker current version:
 
 ### 📸 Screenshots
 <div align="center">
- <h3>Passwords</h3>
-  <img src="https://github.com/Shawtygold/Password-Bunker/blob/master/Screenshot1.png"/>
- <h3>Add/change password</h3>
-  <img src="https://github.com/Shawtygold/Password-Bunker/blob/master/Screenshot3.png"/>
-   <h3>Getting password</h3>
-  <img src="https://github.com/Shawtygold/Password-Bunker/blob/master/Screenshot2.png"/>
+  <img src="https://github.com/Shawtygold/MailNotifier/blob/master/Screenshot1.png"/>
 </div>
 
  ### 🤝 Support me
