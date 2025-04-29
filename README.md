@@ -18,7 +18,7 @@ These are libraries that we're using in this project:
 - [Microsoft.Toolkit.Uwp.Notifications](https://www.nuget.org/packages/Microsoft.Toolkit.Uwp.Notifications/) - version `7.1.3`
 - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) - version `13.0.3`
 
-Password Bunker current version: 
+Current version: 
 - Version - `1.0`
   
 ### 📖 Functional
